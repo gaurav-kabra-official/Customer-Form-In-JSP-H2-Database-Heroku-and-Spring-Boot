@@ -26,13 +26,14 @@ Type in SQL queries such as "SELECT * FROM Customers" and hit Run button to get 
 Postman GUI
 > GET http://localhost:{port_no}/customers/
 Equivalent to SELECT command in database console.
-To get 
+
 > DELETE http://localhost:{port_no}/customers/{cid}
 Delete customer with Id={cid}.
 ```
 # Deploying App with Heroku
 Install Heroku CLI (Heroku is a Salesforce Company)
 Type these commands:
+```
 > git init
 > git add .
 > git commit -m "initial commit"
@@ -40,6 +41,7 @@ Type these commands:
 > heroku create
 > git push heroku master
 > git open
+```
 
 <strong> Online demo using Heroku : https://still-temple-97030.herokuapp.com/ </strong>
 
