@@ -1,10 +1,10 @@
 ## Customer Form 
-### using JSP, H2 Database and Spring Boot
+### using JSP, H2 Database, Heroku and Spring Boot
 
 #### Author : Gaurav Kabra
 
 ```
-Set-up : Postman (Optional) and Spring Boot in Eclipse Ide
+Set-up : Heroku (Optional), Postman (Optional) and Spring Boot in Eclipse Ide
 ```
 
 ## About
@@ -30,9 +30,17 @@ To get
 > DELETE http://localhost:{port_no}/customers/{cid}
 Delete customer with Id={cid}.
 ```
+# Deploying App with Heroku
+Install Heroku CLI (Heroku is a Salesforce Company)
+Type these commands:
+> git init
+> git add .
+> git commit -m "initial commit"
+> heroku login (Here browser will open, click LogIn)
+> heroku create
+> git push heroku master
+> git open
 
-
-
-
+<strong> Online demo using Heroku : https://still-temple-97030.herokuapp.com/ </strong>
 
 
