@@ -40,7 +40,7 @@ Type these commands:
 > heroku login (Here browser will open, click LogIn)
 > heroku create
 > git push heroku master
-> git open
+> heroku open
 ```
 
 <strong> Online demo using Heroku : https://still-temple-97030.herokuapp.com/ </strong>
